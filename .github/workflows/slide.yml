@@ -18,10 +18,14 @@ jobs:
       contents: read
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup mise
-        uses: jdx/mise-action@v2
+        uses: jdx/mise-action@v3
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
 
       - name: Get npm cache dir
         id: npm
@@ -44,7 +48,7 @@ jobs:
         run: npm run build -- --base "/${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/}/"
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./docs/dist
 
@@ -53,6 +57,7 @@ jobs:
     needs: [build]
     cancel-timeout-minutes: 5
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
