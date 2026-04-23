@@ -216,7 +216,7 @@ mise doctor
 コピーしたURLを使って、以下のコマンドでソースコードをクローンします。
 
 ```bash
-git clone https://github.com/tuatmcc/discord-bot-hands-on.git
+git clone https://github.com/HUITgroup/discord-bot-hands-on.git
 ```
 
 クローンすると、`discord-bot-hands-on`というディレクトリが作成されます。それをVSCodeで開いてください。
