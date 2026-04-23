@@ -14,10 +14,10 @@ htmlAttrs:
 seoMeta:
   ogTitle: Discord Botで始めるプログラミング入門講座
   ogDescription: Discord Botを作成しながらJavaScriptの基本的な文法を学びます。
-  ogImage: https://tuatmcc.github.io/discord-bot-hands-on/og-image.png
-  ogUrl: https://tuatmcc.github.io/discord-bot-hands-on/
+  ogImage: https://www.huitgroup.net/discord-bot-hands-on/og-image.png
+  ogUrl: https://www.huitgroup.net/discord-bot-hands-on/
   twitterCard: summary_large_image
-  twitterSite: shun_shobon
+  twitterSite: su8ru_n
 
 class: text-center
 ---
