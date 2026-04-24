@@ -112,7 +112,7 @@ brew install visual-studio-code
 
 Linuxはディストリビューション毎に異なるので各自調べてください。
 
-インストールできたら、以下コマンドで起動できるか確認してください。
+インストールできたら新しくターミナルを立ち上げて、以下コマンドで起動できるか確認してください。
 
 ```bash
 code
@@ -139,7 +139,7 @@ winget install Git.Git
 brew install git
 ```
 
-インストール後、`git`コマンドが使えるようになっているか確認してください。
+インストール後、新しくターミナルを立ち上げて`git`コマンドが使えるようになっているか確認してください。
 
 ```bash
 git --version
@@ -216,7 +216,7 @@ mise doctor
 コピーしたURLを使って、以下のコマンドでソースコードをクローンします。
 
 ```bash
-git clone https://github.com/tuatmcc/discord-bot-hands-on.git
+git clone https://github.com/HUITgroup/discord-bot-hands-on.git
 ```
 
 クローンすると、`discord-bot-hands-on`というディレクトリが作成されます。それをVSCodeで開いてください。
@@ -230,7 +230,7 @@ code discord-bot-hands-on
 
 ## プロジェクトの初期化 <twemoji-hammer-and-wrench />
 
-VSCodeで開くと、まずワークスペースを信頼するかたた聞かれるため、「信頼」を選択してください。
+VSCodeで開くと、まずワークスペースを信頼するかどうか聞かれるため、「信頼」を選択してください。
 <br>
 また、推奨される拡張機能が右下に表示されるので、インストールしてください。
 <br>
